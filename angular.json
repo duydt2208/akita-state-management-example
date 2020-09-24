@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "akita-state-management-example"
+    }
+  },
+  "defaultProject": "akita-state-management-example",
+  "cli": {
+    "defaultCollection": "akita-schematics"
+  }
 }

@@ -1,0 +1,18 @@
+<h1>Rubik Store</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let rubik of (rubiks$ | async); let i = index; trackBy: trackByFn">
+            <td>{{i + 1}}</td>
+            <td>{{rubik.name}}</td>
+            <td>{{rubik.price}}</td>
+        </tr>
+    </tbody>
+</table>
